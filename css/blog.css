@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+}
+:root{
+	--color-primary:#bfa266;
+	--text-primary:#fff;
+	--body-primary:#333;
+}
+a {
+	text-decoration: none !important;
+}
+li{
+	list-style-type: none;
+}
+
+.owl-theme .owl-controls .owl-page.active span{
+	background-color: var(--color-primary);
+}
+.owl-theme .owl-controls .owl-page span{
+	border: 3px var(--color-primary) solid;
+	border-radius: 0;
+	transform: rotate(45deg);
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+}
+.home1{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-image: url(../img/6.jpg);
+}
+.home1 .overlay{
+	background-color: rgba(0,0,0,0.6);
+	height: 100vh;
+}
+.home1 nav{
+	background-color: var(--body-primary) !important;
+}
+.home1 a{
+	border-bottom: 2px solid transparent;
+	transition: all 0.2s ease-in-out;
+	color: var(--text-primary) !important;
+}
+.home1 a:hover{
+	transition: all 0.2s ease-in-out;
+	color: var(--body-primary) Important;
+}
+
+.home1 .main h1{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 520px;
+	color: var(--text-primary);
+	font-weight: bolder;
+	font-size: 180px;
+}
+.home2{
+	background-color: #222;
+	padding: 40px 40px;
+}
+.home2 .lat h1{
+	font-style: italic;
+	font-family: sams;
+	color: var(--color-primary);
+	font-size: 55px;
+	margin-bottom: 40px;
+
+
+}
+.home2 .re h2{
+	font-style: italic;
+	font-family: sams;
+	color: var(--color-primary);
+	font-size: 55px;
+}
+.home2 .re p{
+	font-style: italic;
+	font-family: sams;
+	color: var(--color-primary);
+	font-size: 30px;
+}
+.home2 .re button{
+	font-style: italic;
+	font-family: sams;
+	color: var(--color-primary);
+	font-size: 30px;
+	width: 50%;
+	background-color: transparent;
+	border: 2px solid var(--color-primary);
+	margin-bottom: 40px;
+}
+.foo .col-md-12{
+	text-align: center;
+	background-color: var(--color-primary);
+}
+.foo h2{
+	font-style: italic;
+	font-family: sams;
+	color: var(--text-primary);
+}
